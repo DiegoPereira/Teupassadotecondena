@@ -45,6 +45,8 @@ empenhos_credor_tipo <- dados_empenho %>%
   group_by(cd_Credor, tp_Licitacao) %>%
   summarise(total = n())
 
+write_delim(empenhos_credor_tipo, path = '../data/qtde_licitacoes_por_tipo_por_cnpj.csv', delim = ';')
+
 head(empenhos_credor_tipo)
 ```
 
@@ -55,6 +57,8 @@ contratos_credor_tipo <- dados_contratos %>%
   group_by(nu_CPFCNPJ, tp_Licitacao) %>%
   summarise(valor_total = sum(vl_TotalContrato))
 
+write_delim(contratos_credor_tipo, path = '../data/valor_por_licitacao_por_cnpj.csv', delim = ';')
+
 head(contratos_credor_tipo)
 ```
 
@@ -63,7 +67,9 @@ head(contratos_credor_tipo)
 ```{r}
 contratos_credores_participacoes <- dados_contratos %>%
   group_by(nu_CPFCNPJ, tp_Licitacao) %>%
-  summarise(total = n())
+  summarise(participacoes = n())
+
+write_delim(contratos_credores_participacoes, path = '../data/qtde_participacoes_por_tipo_por_cnpj.csv', delim = '; ')
 
 head(contratos_credores_participacoes)
 ```
