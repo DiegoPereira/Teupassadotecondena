@@ -1,0 +1,70 @@
+---
+title: "Hackfest"
+author: "Arnaldo Gualberto"
+date: "10/06/2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(dplyr, warn.conflicts = FALSE)
+library(ggplot2)
+library(readr)
+```
+
+```{r}
+dados_contratos <- read_csv2('../data/contratos.csv')
+dados_empenho <- read_csv2('../data/empenhos.csv') 
+dados_licitacao <- read_csv2('../data/licitacao.csv')
+dados_pagamentos <- read_csv2('../data/pagamentos.csv')
+dados_participantes <- read_csv2('../data/participantes.csv')
+dados_propostas <- read_csv2('../data/propostas.csv')
+
+head(dados_empenho)
+```
+
+```{r}
+dados_contratos <- dados_contratos %>% 
+  mutate(vl_TotalContrato = as.numeric(vl_TotalContrato), nu_CPFCNPJ = as.numeric(nu_CPFCNPJ)) %>%
+  filter(complete.cases(.))
+
+dados_empenho <- dados_empenho %>% 
+  mutate(vl_Empenho = as.numeric(vl_Empenho), cd_Credor = as.numeric(cd_Credor)) %>% 
+  filter(complete.cases(.))
+
+head(dados_contratos)
+```
+
+### Qtde. de dinheiro ganho em todos os contratos
+
+```{r}
+empenhos_credor_tipo <- dados_empenho %>%
+  group_by(cd_Credor, tp_Licitacao) %>%
+  summarise(total = n())
+
+head(empenhos_credor_tipo)
+```
+
+### Qtde. de dinheiro ganho por tipo de licitacao
+
+```{r}
+contratos_credor_tipo <- dados_contratos %>% 
+  group_by(nu_CPFCNPJ, tp_Licitacao) %>%
+  summarise(valor_total = sum(vl_TotalContrato))
+
+head(contratos_credor_tipo)
+```
+
+### Qtde. de participações por tipo de licitação
+
+```{r}
+contratos_credores_participacoes <- dados_contratos %>%
+  group_by(nu_CPFCNPJ, tp_Licitacao) %>%
+  summarise(total = n())
+
+head(contratos_credores_participacoes)
+```
+
