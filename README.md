@@ -1,4 +1,4 @@
-# Teu Passado te Condena
+# Teu passado te condena
 
 ## Considerações iniciais
 
@@ -16,14 +16,17 @@ Usamos os dados do SAGRES e do CEIS, proveniênte do Portal da Transparência do
 
 
 As variáveis que foram utilizadas para criar o modelo foram as seguintes:
-* Nome da variável              | Descrição
-  ----------------------------- | ---------------------------------------------------------------------------------
-    I                           | Iron
-    A                           | Arnaldo
-    C                           | Caio
-    R                           | Raquel
-    L                           | Luiz
-    D                           | Diego
-    I                           | Igor
-    D                           | Diogo    
- 
+
+| Nome da variável                  | Descrição   |
+|-----|-----|
+|qtdAditivosPorCPFCNPJ              | Quantidade de aditivos por CPF ou CNPJ |
+|qtdContratos                       | Quantidade de contratos          |
+|qtdContratos_ganhos                | Quantidade de contratos ganhos  |
+|vl_TotalContrato                   | Valor total do contrato         |
+|valor_total_pregao                 | Valor total em pregões          |
+|valor_total_convite                | Valor total em convites         |
+|valor_total_tomada                 | Valor total em tomadas          |
+|participacoes_pregao               | Participações em pregões        |    
+|participacoes_tomada               | Participações em tomadas        |
+|participacoes_convite              | Participações por convite       |
+|participacoes_total                | Participação total              |
