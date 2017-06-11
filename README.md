@@ -3,15 +3,14 @@
 
 --------------------------------------------------------------------
 
-## Considerações iniciais e avisos
+## Considerações iniciais
 ***
-Neste projeto não temos intenção nenhuma de acusar ou sugerir que qualquer empresa citada seja corrupta ou faça uso de atos ilicitos. Esta ferramenta é apenas para o auxilio a auditóres/gestores na parte de investigação com relação a ordem das empresas, o ranking é apenas ilustrativo e faz uso de <i>Machine Learning</i> com os dados passados de empresas realmente corruptas para gerar as pontuações das empresas com o intervalo de confiança X. Não temos qualquer ligação com as empresas ou seus donos e não queremos prejudicar em qualquer modo suas imagens e/ou integridade.
 
-
+Este projeto não tem a intenção de acusar ou denegrir a imagem de qualquer empresa. O objetivo da ferramenta é auxiliar os auditores a identificar o grau de desconfiança nas empresas que tenham participado de licitações a partir de fatores que são comuns em esquemas irregulares. Embora as análises do aplicativo possam facilitar a identificação de empresas que tenham semelhanças a outras que são comprovadamente inidôneas, esses resultados não têm o poder de afirmar que as empresas analisadas realmente cometeram alguma fraude. Fica a cargo dos auditores continuarem a investigação para garantir que as empresas com baixa confiança realmente tenham cometido alguma irregularidade.
 
 ## Proposta
 ***
-Nossa ideia para esse projeto é criar um modelo de classificação usando <i>Machine Leaning</i>, com os dados de empresas comprovadamente irregulares ou corruptas, tentar identificar padrões com novas empresas, e classifica-las em um ranking através de uma porcentagem de similaridade dada pelo nosso modelo.
+A ideia do projeto é criar um modelo de classificação usando _Machine Leaning_ que se baseie nas características de empresas que são comprovadamente inidôneas para tentar ranquear outras empresas a respeito de seu grau de desconfiança.
 
 
 ## Impacto social
