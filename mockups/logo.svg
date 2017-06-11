@@ -17,8 +17,8 @@
    inkscape:version="0.91 r13725"
    sodipodi:docname="logo.svg"
    inkscape:export-filename="/home/lamm/Projetos/teu-passado-te-condena/img/logo.png"
-   inkscape:export-xdpi="200.03569"
-   inkscape:export-ydpi="200.03569">
+   inkscape:export-xdpi="299.905"
+   inkscape:export-ydpi="299.905">
   <defs
      id="defs3621" />
   <sodipodi:namedview
@@ -29,7 +29,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.2838365"
-     inkscape:cx="597.444"
+     inkscape:cx="771.84018"
      inkscape:cy="-211.56754"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -60,13 +60,6 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-80.968758,-452.84409)">
-    <rect
-       style="fill:#ffffff;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="rect3360"
-       width="817.37195"
-       height="207.86615"
-       x="81.468689"
-       y="453.34409" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot3665"
@@ -141,57 +134,5 @@
      id="layer2"
      inkscape:label="Camada 2"
      style="display:inline"
-     transform="translate(0.50000074,0.55010862)">
-    <g
-       id="g3366">
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:30.59180069px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="1343.27"
-         y="657.47314"
-         id="text3369"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3371"
-           x="1343.27"
-           y="657.47314"
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:53.53565216px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif Italic'">TEU</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:47.03825378px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="1448.2273"
-         y="649.22906"
-         id="text3373"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3375"
-           x="1448.2273"
-           y="649.22906"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:105.83607483px;font-family:'Dancing Script';-inkscape-font-specification:'Dancing Script';fill:#000000;fill-opacity:1">Passado</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:31.34713173px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#aa0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="1421.918"
-         y="757.09631"
-         id="text3377"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan3379"
-           x="1421.918"
-           y="757.09631"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:141.06208801px;font-family:FreeSerif;-inkscape-font-specification:FreeSerif;fill:#aa0000">CONDENA</tspan></text>
-      <text
-         sodipodi:linespacing="125%"
-         id="text3381"
-         y="700.91553"
-         x="1363.8925"
-         style="font-style:normal;font-weight:normal;font-size:29.03275871px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:50.80732727px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif Italic'"
-           y="700.91553"
-           x="1363.8925"
-           id="tspan3383"
-           sodipodi:role="line">TE</tspan></text>
-    </g>
-  </g>
+     transform="translate(0.50000074,0.55010862)" />
 </svg>
