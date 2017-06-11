@@ -39,6 +39,7 @@ As variáveis que foram utilizadas para criar o modelo foram as seguintes:
 1. Para levantar o serviço é necessário executar o arquivo python server.py localizado no diretório api. Por default a aplicação executará na porta 5000.
 
 2. Realizar uma requisição HTTP para algumas das seguintes rotas:
+
 | Rota                  | Descrição   |
 |-----|-----|
 | /busca/cpf_cnpj/<id> | Retorna as informações sobre as prestações de serviço da detentora do número de cadastro de pessoa física ou jurídica especificado |
