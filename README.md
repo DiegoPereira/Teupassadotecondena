@@ -30,3 +30,17 @@ As variáveis que foram utilizadas para criar o modelo foram as seguintes:
 |participacoes_tomada               | Participações em tomadas        |
 |participacoes_convite              | Participações por convite       |
 |participacoes_total                | Participação total              |
+
+
+## Usando a API
+
+É possível realizar consultas ao API (REST) do Teu Passado Te Condena para obter o ranking crescente ou decrescente das empresas com base em um índice de confiabilidade da empresa calculado a partir dos fatores analisados ou mais informações sobre uma empresa. Para utilizar o API é necessário seguir alguns passos:
+
+1. Para levantar o serviço é necessário executar o arquivo python server.py localizado no diretório api. Por default a aplicação executará na porta 5000.
+
+2. Realizar uma requisição HTTP para algumas das seguintes rotas:
+
+| Rota                  | Descrição   |
+|-----|-----|
+| /busca/cpf_cnpj/<id> | Retorna as informações sobre as prestações de serviço da detentora do número de cadastro de pessoa física ou jurídica especificado |
+| ranking/<ordem> | Ranking das empresas ordenadas a partir da nota de confiabilidade gerada a partir do aprendizado de máquinas. A ordem pode ser "crescente" ou "decrescente" |
